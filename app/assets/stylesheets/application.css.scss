@@ -40,10 +40,11 @@ h1, h2, h3 {
   color: white;
 }
 
-.navbar-brand {
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a {
   color: white;
+  &:hover {
+    color: white;
+  }
 }
 
-.navbar-nav li a {
-  color: white;
-}
