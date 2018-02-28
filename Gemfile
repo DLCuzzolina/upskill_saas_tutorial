@@ -58,4 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #FontAwesome sass gem from github for adding icons 
 gem 'font-awesome-sass', '4.6.2'
 
+#Use Hirb for database table display in console
+gem 'hirb', '0.7.3'
+
 ruby '2.3.0' 
