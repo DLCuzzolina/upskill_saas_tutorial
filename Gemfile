@@ -38,6 +38,9 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+# Use device for user authentication
+  gem 'devise', '4.2.0'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
